@@ -4,7 +4,6 @@
   --accent: #d4af37;          
   --light: #fffff0;           
   --gray: #e5e5e5;            
-
   --font-heading: 'Playfair Display', serif;
   --font-body: 'Poppins', Arial, sans-serif;
   --font-brand: 'Cinzel Decorative', cursive;
@@ -320,4 +319,26 @@ footer p
   {
     font-size: 1.9rem;
   }
+}
+
+.dark-mode 
+{
+  background-color: #1b1d22;
+  color: #f0f0f0;
+}
+
+.dark-mode header 
+{
+  background-color: #222;
+}
+
+.dark-mode #buletin 
+{
+  background-color: #444;
+}
+
+.dark-mode #buletin button 
+{
+  background-color: #b6952e;
+  color: #fff;
 }
